@@ -1,5 +1,3 @@
-"use strict";
-
 const { openBrowser, closeBrowser, goto } = require('taiko');
 const headless = process.env.headless_chrome.toLowerCase() == 'true' ? true : false;
 

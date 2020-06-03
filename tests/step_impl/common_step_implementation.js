@@ -1,5 +1,3 @@
-"use strict";
-
 const { text, contains, title } = require('taiko');
 const assert = require("assert");
 

@@ -1,4 +1,4 @@
-const { textField, text, $ } = require('taiko');
+const { $ } = require('taiko');
 
 class HomePage {
 

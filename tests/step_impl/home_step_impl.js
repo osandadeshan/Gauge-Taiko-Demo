@@ -1,5 +1,3 @@
-"use strict";
-
 const homePage = require("../page/home_page")
 const assert = require("assert")
 
