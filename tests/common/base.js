@@ -3,7 +3,7 @@ const headless = process.env.headless_chrome.toLowerCase() == 'true' ? true : fa
 
 beforeSuite(async () => { 
     await openBrowser({ headless: headless });
-    await goto('http://automationpractice.com/index.php?controller=authentication&back=my-account');
+    await goto(process.env.base_url);
 });
 
 afterSuite(async () => await closeBrowser());

@@ -4,6 +4,8 @@ This is an executable specification file. This file follows markdown syntax. Eve
 To execute this specification, use
 	npm test
 
+tags: login
+
 ## Login to the application
 * Login with username as "osanda@mailinator.com" and password as "1qaz2wsx@"
 * Page title is "My account - My Store"
